@@ -1,0 +1,581 @@
+@import url(bootstrap.css);
+@import url(font-awesome.css);
+@font-face {
+  font-family: "OSI";
+  src: url("../fonts/opensans-italic-webfont.eot");
+  src: url("../fonts/opensans-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-italic-webfont.woff") format("woff"), url("../fonts/opensans-italic-webfont.ttf") format("truetype"), url("../fonts/opensans-italic-webfont.svg#$font-file") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "OSR";
+  src: url("../fonts/opensans-regular-webfont.eot");
+  src: url("../fonts/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-regular-webfont.woff") format("woff"), url("../fonts/opensans-regular-webfont.ttf") format("truetype"), url("../fonts/opensans-regular-webfont.svg#$font-file") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "OSB";
+  src: url("../fonts/opensans-bold-webfont.eot");
+  src: url("../fonts/opensans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-bold-webfont.woff") format("woff"), url("../fonts/opensans-bold-webfont.ttf") format("truetype"), url("../fonts/opensans-bold-webfont.svg#$font-file") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "AMR";
+  src: url("../fonts/asap-regular-webfont.eot");
+  src: url("../fonts/asap-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/asap-regular-webfont.woff") format("woff"), url("../fonts/asap-regular-webfont.ttf") format("truetype"), url("../fonts/asap-regular-webfont.svg#$font-file") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "AMB";
+  src: url("../fonts/asap-bold-webfont.eot");
+  src: url("../fonts/asap-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/asap-bold-webfont.woff") format("woff"), url("../fonts/asap-bold-webfont.ttf") format("truetype"), url("../fonts/asap-bold-webfont.svg#$font-file") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.icon, .icon-illustr-1, .icon-illustr-10, .icon-illustr-11, .icon-illustr-2, .icon-illustr-3, .icon-illustr-4, .icon-illustr-5, .icon-illustr-6, .icon-illustr-7, .icon-illustr-8, .icon-illustr-9, .icon-info, .icon-logo {
+  background: url('../img/icon-s994a5bcbeb.png') no-repeat; }
+
+.icon-illustr-1 {
+  background-position: 0 0;
+  height: 189px;
+  width: 361px; }
+
+.icon-illustr-10 {
+  background-position: -461px 0;
+  height: 138px;
+  width: 240px; }
+
+.icon-illustr-11 {
+  background-position: -801px 0;
+  height: 264px;
+  width: 228px; }
+
+.icon-illustr-2 {
+  background-position: -1129px 0;
+  height: 138px;
+  width: 240px; }
+
+.icon-illustr-3 {
+  background-position: -1469px 0;
+  height: 212px;
+  width: 300px; }
+
+.icon-illustr-4 {
+  background-position: -1869px 0;
+  height: 229px;
+  width: 300px; }
+
+.icon-illustr-5 {
+  background-position: -2269px 0;
+  height: 139px;
+  width: 120px; }
+
+.icon-illustr-6 {
+  background-position: -2489px 0;
+  height: 242px;
+  width: 284px; }
+
+.icon-illustr-7 {
+  background-position: -2873px 0;
+  height: 138px;
+  width: 240px; }
+
+.icon-illustr-8 {
+  background-position: -3213px 0;
+  height: 189px;
+  width: 212px; }
+
+.icon-illustr-9 {
+  background-position: -3525px 0;
+  height: 177px;
+  width: 240px; }
+
+.icon-info {
+  background-position: -3865px 0;
+  height: 18px;
+  width: 18px; }
+
+.icon-logo {
+  background-position: -3983px 0;
+  height: 52px;
+  width: 199px; }
+
+.icon, .icon-illustr-1, .icon-illustr-10, .icon-illustr-11, .icon-illustr-2, .icon-illustr-3, .icon-illustr-4, .icon-illustr-5, .icon-illustr-6, .icon-illustr-7, .icon-illustr-8, .icon-illustr-9, .icon-info, .icon-logo {
+  display: inline-block; }
+
+/* Define general styling
+Main elements */
+body {
+  width: 100%;
+  max-width: 100%;
+  font-family: 'OSR', Arial, Arial; }
+  html.ie8 body {
+    min-width: 991px; }
+
+/* Typographic */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 120%;
+  color: inherit;
+  max-width: 100%;
+  font-weight: normal; }
+
+strong {
+  font-family: 'OSB', Arial; }
+
+li, p, dd, dt, cite, address {
+  line-height: 167%;
+  margin-bottom: 20px;
+  padding: 0;
+  font-size: 1.14em;
+  color: inherit;
+  max-width: 100%; }
+
+.outlined, .outlined div {
+  outline: 1px solid red; }
+
+.container {
+  margin: auto;
+  max-width: 960px; }
+
+.btn {
+  white-space: normal; }
+  .btn.btn-warning {
+    background: #f2ac0a;
+    text-align: center;
+    border-radius: 5px;
+    border-bottom: 5px solid #cf9008;
+    padding: 9px 15px;
+    font-family: "AMR";
+    font-size: 1.16em;
+    text-transform: uppercase;
+    line-height: 120%; }
+    .btn.btn-warning strong {
+      font-family: "AMB";
+      display: block;
+      text-shadow: 1px 1px 1px #e4b96e; }
+
+.navbar {
+  background: #699636;
+  padding: 16px 0;
+  text-align: left;
+  margin: 0;
+  border-radius: 0px !important;
+  box-shadow: none  !important; }
+  .navbar .container {
+    padding-left: 9px; }
+  .navbar .logo {
+    display: block;
+    text-align: left; }
+
+article p {
+  color: #747474; }
+
+h3.title {
+  font-family: AMB;
+  font-size: 2.88em;
+  margin: 41px 0px 33px 0px; }
+
+/* General styling */
+article.page-header {
+  margin: 0;
+  border: 0;
+  background: url(../img/green-bg.gif) repeat-x top center;
+  padding: 53px 0 4px 0; }
+  @media (max-width: 979px) {
+    article.page-header {
+      background: url(../img/green-bg-2.gif) repeat-x top center; } }
+  @media (max-width: 768px) {
+    article.page-header {
+      background: #84bc46;
+      padding-top: 30px; } }
+  body.life_insurance article.page-header {
+    padding: 10px 0 4px 0; }
+  body.dept_management article.page-header {
+    padding: 38px 0 4px 0; }
+  article.page-header .white-part {
+    padding-bottom: 40px;
+    padding-top: 16px; }
+    article.page-header .white-part p, article.page-header .white-part ul, article.page-header .white-part li, article.page-header .white-part h1, article.page-header .white-part h2 {
+      color: #ffffff; }
+    body.life_insurance article.page-header .white-part {
+      padding-top: 0; }
+    body.dept_management article.page-header .white-part {
+      padding-top: 0; }
+    @media (max-width: 768px) {
+      article.page-header .white-part {
+        padding-top: 0; } }
+    article.page-header .white-part h1 {
+      font-family: 'AMB';
+      font-size: 3.85em;
+      line-height: 126%;
+      margin-bottom: 20px; }
+      @media (max-width: 768px) {
+        article.page-header .white-part h1 {
+          font-size: 3.2em; } }
+      body.dept_management article.page-header .white-part h1 {
+        margin-top: 0; }
+    article.page-header .white-part h2 {
+      font-family: 'AMR';
+      font-size: 2.57em;
+      line-height: 123%;
+      margin-bottom: 40px; }
+    article.page-header .white-part hr {
+      margin-bottom: 42px;
+      border-top: 2px solid #ffffff; }
+    article.page-header .white-part .fa-ul {
+      font-family: "OSB";
+      margin-top: 17px; }
+      article.page-header .white-part .fa-ul .fa-li {
+        font-size: 1.7em;
+        top: -2px;
+        left: -49px; }
+    article.page-header .white-part .icon-illustr-9 {
+      display: block;
+      margin: -2px auto 42px auto; }
+    article.page-header .white-part .icon-illustr-6 {
+      display: block;
+      margin: 0px auto 42px auto; }
+    article.page-header .white-part .icon-illustr-1 {
+      display: block;
+      margin: 0px auto 44px auto; }
+    article.page-header .white-part p {
+      margin-bottom: 20px; }
+  article.page-header .white-bg-area {
+    padding-top: 95px;
+    padding-bottom: 20px; }
+    body.life_insurance article.page-header .white-bg-area {
+      padding-top: 23px; }
+    body.remortage article.page-header .white-bg-area {
+      padding-top: 248px; }
+    @media (max-width: 768px) {
+      article.page-header .white-bg-area {
+        padding-top: 0px; }
+        article.page-header .white-bg-area p, article.page-header .white-bg-area h3.title {
+          color: #ffffff; } }
+    article.page-header .white-bg-area .icon-illustr-5 {
+      margin-bottom: 29px; }
+      @media (max-width: 768px) {
+        article.page-header .white-bg-area .icon-illustr-5 {
+          margin: auto;
+          margin-bottom: 29px;
+          display: block; } }
+    article.page-header .white-bg-area .icon-illustr-7 {
+      display: block;
+      margin-bottom: 37px; }
+      body.dept_management article.page-header .white-bg-area .icon-illustr-7 {
+        margin-top: -12px; }
+    body.remortage article.page-header .white-bg-area p {
+      margin-bottom: 21px; }
+  @media (max-width: 768px) {
+    article.page-header .row {
+      margin: 0; } }
+  article.page-header .col-xs-7 {
+    padding-left: 10px;
+    padding-right: 42px; }
+    @media (max-width: 768px) {
+      article.page-header .col-xs-7 {
+        padding: 0; } }
+  article.page-header .col-xs-5 {
+    padding-left: 8px;
+    padding-right: 5px; }
+    @media (max-width: 768px) {
+      article.page-header .col-xs-5 {
+        padding: 0; } }
+  article.page-header .panel {
+    border: 3px solid rgba(112, 160, 60, 0.2);
+    background-clip: padding-box;
+    border-radius: 6px;
+    margin-bottom: 40px; }
+    body.life_insurance article.page-header .panel {
+      margin-top: 42px; }
+    body.dept_management article.page-header .panel {
+      margin-top: 14px; }
+    article.page-header .panel .panel-heading {
+      background: #e3d600;
+      font-family: "AMR";
+      padding: 24px 5px;
+      line-height: 100%;
+      border-radius: 0; }
+      article.page-header .panel .panel-heading .panel-title {
+        text-align: left;
+        text-transform: uppercase;
+        padding-left: 16px;
+        color: #333333;
+        font-size: 1.1em; }
+        body.life_insurance article.page-header .panel .panel-heading .panel-title {
+          font-family: OSB;
+          font-size: 1.29em; }
+        body.dept_management article.page-header .panel .panel-heading .panel-title {
+          font-family: OSB;
+          font-size: 1.29em; }
+        body.remortage article.page-header .panel .panel-heading .panel-title {
+          font-family: OSB;
+          font-size: 1.29em; }
+    article.page-header .panel .panel-body {
+      padding: 18px 18px 29px 18px; }
+      body.life_insurance article.page-header .panel .panel-body {
+        padding: 15px 18px 29px 18px; }
+      body.remortage article.page-header .panel .panel-body {
+        padding: 15px 18px 29px 20px; }
+      body.dept_management article.page-header .panel .panel-body {
+        padding: 15px 18px 29px 20px; }
+      article.page-header .panel .panel-body p {
+        font-size: 1em;
+        color: #333333;
+        line-height: 121%;
+        margin-bottom: 13px; }
+      article.page-header .panel .panel-body .checkbox p {
+        font-family: OSR;
+        font-size: .9em;
+        margin-bottom: 14px;
+        line-height: 127%;
+        color: #666666; }
+      article.page-header .panel .panel-body .icon-info {
+        color: #00abe3;
+        font-size: 1.3em;
+        cursor: pointer; }
+      article.page-header .panel .panel-body h4.page-header {
+        color: #26b1e5;
+        font-family: "OSB";
+        margin: 0px 0px 17px 0px;
+        padding: 0px 0px 7px 0px;
+        font-size: 1.29em;
+        border-bottom: 1px solid #e3e3e3; }
+        article.page-header .panel .panel-body h4.page-header small {
+          font-family: "OSR";
+          color: #999999;
+          font-size: .65em; }
+        article.page-header .panel .panel-body h4.page-header.middle {
+          margin-top: 27px;
+          padding-bottom: 4px;
+          margin-bottom: 13px; }
+          body.life_insurance article.page-header .panel .panel-body h4.page-header.middle {
+            padding-bottom: 4px;
+            margin-bottom: 20px; }
+          body.dept_management article.page-header .panel .panel-body h4.page-header.middle {
+            margin-top: 9px;
+            padding-bottom: 5px; }
+      article.page-header .panel .panel-body .form-control {
+        background: #fafafa;
+        border-color: #d4d4d4;
+        height: 42px; }
+      article.page-header .panel .panel-body .form-group {
+        margin-bottom: 13px;
+        padding-bottom: 18px; }
+        body.life_insurance article.page-header .panel .panel-body .form-group {
+          padding-bottom: 6px; }
+        body.dept_management article.page-header .panel .panel-body .form-group {
+          margin-bottom: 1px; }
+        body.remortage article.page-header .panel .panel-body .form-group {
+          margin-bottom: 1px; }
+        article.page-header .panel .panel-body .form-group.has-error .form-control {
+          border-color: #b94a48 !important; }
+        article.page-header .panel .panel-body .form-group.has-success .form-control {
+          border-color: #468847 !important; }
+        article.page-header .panel .panel-body .form-group.pb8 {
+          padding-bottom: 8px; }
+        article.page-header .panel .panel-body .form-group.pb11 {
+          padding-bottom: 11px; }
+      article.page-header .panel .panel-body .input-group.control-group {
+        display: block;
+        margin-bottom: 8px; }
+      article.page-header .panel .panel-body .form-group > label, article.page-header .panel .panel-body label.sep {
+        font-family: "OSB";
+        display: block;
+        line-height: 100%;
+        padding: 0;
+        font-size: 1em;
+        font-weight: normal;
+        width: 100%;
+        margin: 0px 0px 4px 0px; }
+        body.remortage article.page-header .panel .panel-body .form-group > label, body.remortage article.page-header .panel .panel-body label.sep {
+          margin-bottom: 7px; }
+        article.page-header .panel .panel-body .form-group > label small, article.page-header .panel .panel-body label.sep small {
+          font-family: OSR; }
+        article.page-header .panel .panel-body .form-group > label span.light, article.page-header .panel .panel-body label.sep span.light {
+          font-family: 'OSR';
+          font-size: .96em; }
+        article.page-header .panel .panel-body .form-group > label.error, article.page-header .panel .panel-body label.sep.error {
+          font-family: "OSR";
+          color: #b94a48;
+          background-color: #f2dede;
+          border: 1px solid #eed3d7;
+          padding: 5px;
+          border-radius: 0 0 5px 5px; }
+          article.page-header .panel .panel-body .form-group > label.error.valid, article.page-header .panel .panel-body label.sep.error.valid {
+            color: #468847;
+            background-color: #dff0d8;
+            border-color: #d6e9c6; }
+      article.page-header .panel .panel-body label.sep {
+        margin: 14px 0px 6px 0px; }
+        body.dept_management article.page-header .panel .panel-body label.sep {
+          margin-top: 19px; }
+      @media (max-width: 768px) {
+        article.page-header .panel .panel-body .row {
+          margin: 0; } }
+      article.page-header .panel .panel-body .col-xs-4 {
+        padding-left: 5px;
+        padding-right: 5px; }
+        article.page-header .panel .panel-body .col-xs-4:first-child {
+          padding-left: 15px; }
+        article.page-header .panel .panel-body .col-xs-4:last-child {
+          padding-right: 15px; }
+        @media (max-width: 768px) {
+          article.page-header .panel .panel-body .col-xs-4 {
+            padding: 0 !important; } }
+      article.page-header .panel .panel-body .radio-inline {
+        margin-right: 14px; }
+
+/* gray */
+article.gray {
+  background: #e7ebe4;
+  padding: 62px 0 43px 0; }
+  body.life_insurance article.gray {
+    padding: 62px 0 25px 0; }
+  body.dept_management article.gray {
+    padding: 19px 0 43px 0; }
+  body.remortage article.gray {
+    padding: 19px 0 43px 0; }
+  article.gray .container {
+    max-width: 809px; }
+  article.gray .icon-illustr-11 {
+    margin: 41px auto 43px auto;
+    display: block; }
+  article.gray span.icon-illustr-8 {
+    margin: 41px auto 43px auto;
+    display: block; }
+  article.gray span.icon-illustr-3 {
+    margin: 41px auto 38px auto;
+    display: block; }
+
+body.dept_management article.gray p {
+  margin-bottom: 20px; }
+
+body.remortage article.gray p {
+  margin-bottom: 20px; }
+
+/*  */
+article.summary {
+  background: #ffffff;
+  padding: 63px 0 43px 0;
+  color: #666666; }
+  body.life_insurance article.summary {
+    padding: 16px 0 43px 0; }
+  body.dept_management article.summary {
+    padding: 16px 0 43px 0; }
+  article.summary .container {
+    max-width: 809px; }
+  article.summary .btn-warning {
+    display: block;
+    margin: 45px auto 10px auto;
+    max-width: 620px;
+    text-shadow: 1px 1px 1px #a87507; }
+    article.summary .btn-warning strong {
+      font-size: 1.16em; }
+    body.life_insurance article.summary .btn-warning {
+      max-width: 460px; }
+    body.dept_management article.summary .btn-warning {
+      max-width: 463px; }
+    body.remortage article.summary .btn-warning {
+      max-width: 463px; }
+  article.summary p.bolder {
+    font-family: OSB;
+    margin-bottom: 26px;
+    font-size: 1.16em;
+    color: #333333; }
+  body.dept_management article.summary p {
+    margin-bottom: 21px; }
+  article.summary .with-m p {
+    margin-bottom: 17px !important; }
+  article.summary blockquote {
+    margin: 0 auto;
+    padding: 0px 0;
+    max-width: 618px;
+    border: 0; }
+    article.summary blockquote cite {
+      display: block;
+      font-family: 'OSI';
+      color: #333333;
+      display: block;
+      margin: 0;
+      padding: 0;
+      line-height: 158%;
+      font-size: .92em; }
+    article.summary blockquote p.name {
+      color: #666;
+      margin: 24px 0px 23px 0px;
+      font-size: .92em; }
+      article.summary blockquote p.name strong {
+        font-family: 'OSB'; }
+  article.summary .icon-illustr-4 {
+    margin: 10px auto 29px auto;
+    display: block; }
+  article.summary .icon-illustr-3 {
+    margin: 43px auto 40px auto;
+    display: block; }
+
+/* Footer */
+footer {
+  margin: 20px 0;
+  padding: 20px 0;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+  background: #FFF; }
+  @media (max-width: 768px) {
+    footer {
+      margin: 0; } }
+  footer .container {
+    max-width: 971px; }
+  footer p.copy {
+    margin: 5px 0;
+    font-size: .92em; }
+  @media (max-width: 768px) {
+    footer .col-xs-6 {
+      text-align: center !important;
+      padding: 5px 15px; } }
+
+article.disclaimer {
+  padding: 11px 0 9px 0;
+  background: #FFF; }
+  article.disclaimer .container {
+    max-width: 990px; }
+  article.disclaimer p {
+    font-size: .93em;
+    color: #a1a1a1;
+    margin-bottom: 8px; }
+    article.disclaimer p a {
+      color: #333333;
+      text-decoration: none; }
+
+/* Media queries */
+@media (max-width: 768px) {
+  br {
+    display: none; }
+
+  /* Grid */
+  .row {
+    margin: 0; }
+
+  .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: none;
+    width: 100%; }
+
+  h1, h2, h3, h4, p {
+    word-wrap: break-word; } }
+@media (max-width: 480px) {
+  p {
+    word-wrap: break-word; } }
+a:hover,
+a:focus,
+a,
+i,
+.btn,
+.btn:hover,
+.btn:focus {
+  transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease; }
