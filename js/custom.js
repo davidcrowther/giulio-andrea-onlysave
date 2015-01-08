@@ -9,16 +9,6 @@ $(document).ready(function(){
       autoclose: true
 	});
 
-	/**
-	 * Select2 plugin
-	 * @type {Number}
-	 */
-	$('select.form-control').select2({
-	 minimumResultsForSearch: -1,
-	 dropdownAutoWidth: true, 
-	 containerCssClass: "styled-dropdown-container",
-	 dropdownCssClass: "styled-dropdown-list"
-	});
 
 	/**
 	 * popover
@@ -295,5 +285,20 @@ $(document).ready(function(){
 	validator2();
 	validator3();
 	validator4();
+
+	/**
+	 * Select2 plugin
+	 * @type {Number}
+	 */
+    if( !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) ) {
+
+		$('select.form-control').select2({
+		 minimumResultsForSearch: -1,
+		 dropdownAutoWidth: true, 
+		 containerCssClass: "styled-dropdown-container",
+		 dropdownCssClass: "styled-dropdown-list"
+		});
+
+	};
  
 });

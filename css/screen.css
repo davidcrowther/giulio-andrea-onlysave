@@ -157,6 +157,9 @@
 .mb26 {
   margin-bottom: 26px !important; }
 
+a img {
+  border: 0; }
+
 body {
   width: 100%;
   max-width: 100%;
@@ -186,10 +189,7 @@ li, p, dd, dt, cite, address {
 
 .container {
   margin: auto;
-  max-width: 960px;
-  /*border-left: 1px solid red;*/
-  /*border-right: 1px solid cyan; */
-  }
+  max-width: 960px; }
 
 .btn {
   white-space: normal; }
@@ -234,19 +234,15 @@ h3.title {
 article.page-header {
   margin: 0;
   border: 0;
-  background: url(../img/green-bg.gif) repeat-x top center;
   background: #84bc46;
   padding: 53px 0 0px 0; }
-  @media (max-width: 979px) {
-    article.page-header {
-      background: url(../img/green-bg-2.gif) repeat-x top center; } }
   @media (max-width: 768px) {
     article.page-header {
-      background: #84bc46;
       padding-top: 30px; } }
   article.page-header .white-part {
     padding-bottom: 112px;
-    padding-top: 36px; }
+    padding-top: 36px;
+    background: #84bc46; }
     body.v2 article.page-header .white-part {
       padding-top: 0px; }
     body.dept_management article.page-header .white-part {
@@ -261,6 +257,10 @@ article.page-header {
       padding-top: 87px; }
     body.remortage.v2 article.page-header .white-part {
       padding-top: 60px; }
+    article.page-header .white-part.pt0 {
+      padding-top: 0 !important; }
+      article.page-header .white-part.pt0 h1 {
+        margin-top: -15px !important; }
     article.page-header .white-part p, article.page-header .white-part ul, article.page-header .white-part li, article.page-header .white-part h1, article.page-header .white-part h2 {
       color: white; }
     @media (max-width: 768px) {
@@ -275,7 +275,7 @@ article.page-header {
         margin-top: -15px; }
       @media (max-width: 768px) {
         article.page-header .white-part h1 {
-          font-size: 3.2em; } }
+          font-size: 2.1em; } }
     article.page-header .white-part h2 {
       font-family: "AMR";
       font-size: 2.57em;
@@ -283,6 +283,9 @@ article.page-header {
       margin-bottom: 40px; }
       article.page-header .white-part h2.m0 {
         margin-bottom: 15px; }
+      @media (max-width: 768px) {
+        article.page-header .white-part h2 {
+          font-size: 1.8em; } }
     article.page-header .white-part hr {
       margin-bottom: 42px;
       margin-top: 0;
@@ -300,22 +303,53 @@ article.page-header {
     background: white;
     padding-top: 42px;
     padding-bottom: 20px;
-    position: relative; }
-    article.page-header .white-bg-area.mt-410 {
-      margin-top: -410px; }
-    article.page-header .white-bg-area.mt-600 {
-      margin-top: -600px; }
-    article.page-header .white-bg-area.mt-283 {
-      margin-top: -283px; }
-    article.page-header .white-bg-area.mt-828 {
-      margin-top: -828px; }
+    position: relative;
+    /* start of the private definitions */ }
+    body.private_insurance article.page-header .white-bg-area {
+      margin-top: -353px; }
+      @media (max-width: 979px) {
+        body.private_insurance article.page-header .white-bg-area {
+          margin-top: -233px; } }
+    body.private_insurance.v2 article.page-header .white-bg-area {
+      margin-top: -233px; }
+      @media (max-width: 979px) {
+        body.private_insurance.v2 article.page-header .white-bg-area {
+          margin-top: -123px; } }
+    body.life_insurance article.page-header .white-bg-area {
+      margin-top: -470px; }
+      @media (max-width: 979px) {
+        body.life_insurance article.page-header .white-bg-area {
+          margin-top: -330px; } }
+    body.life_insurance.v2 article.page-header .white-bg-area {
+      margin-top: -310px; }
+      @media (max-width: 979px) {
+        body.life_insurance.v2 article.page-header .white-bg-area {
+          margin-top: -150px; } }
+    body.dept_management article.page-header .white-bg-area {
+      margin-top: -500px;
+      padding-bottom: 134px; }
+      @media (max-width: 979px) {
+        body.dept_management article.page-header .white-bg-area {
+          margin-top: -580px; } }
+    body.dept_management.v2 article.page-header .white-bg-area {
+      margin-top: -500px; }
+      @media (max-width: 979px) {
+        body.dept_management.v2 article.page-header .white-bg-area {
+          margin-top: -510px; } }
+    body.remortage article.page-header .white-bg-area {
+      margin-top: -680px;
+      padding-bottom: 60px; }
+      @media (max-width: 979px) {
+        body.remortage article.page-header .white-bg-area {
+          margin-top: -710px; } }
+    body.remortage.v2 article.page-header .white-bg-area {
+      margin-top: -680px; }
+      @media (max-width: 979px) {
+        body.remortage.v2 article.page-header .white-bg-area {
+          margin-top: -710px; } }
     @media (max-width: 768px) {
       article.page-header .white-bg-area {
         margin-top: 0 !important; } }
-    body.dept_management article.page-header .white-bg-area {
-      padding-bottom: 134px; }
-    body.remortage article.page-header .white-bg-area {
-      padding-bottom: 194px; }
   @media (max-width: 768px) {
     article.page-header .row {
       margin: 0; } }
@@ -390,9 +424,21 @@ article.page-header {
       article.page-header .panel .panel-body .form-control {
         background: #fafafa;
         border-color: #d4d4d4;
-        height: 42px; }
+        height: 42px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box; }
+        article.page-header .panel .panel-body .form-control[readonly] {
+          background: #fafafa;
+          cursor: pointer; }
         article.page-header .panel .panel-body .form-control.mb0 {
           margin-bottom: 0; }
+      article.page-header .panel .panel-body select.form-control {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        min-width: 100%;
+        max-width: 100%;
+        display: block; }
       article.page-header .panel .panel-body .form-group {
         margin-bottom: 0px;
         padding-bottom: 19px; }
@@ -551,22 +597,16 @@ article.disclaimer {
       color: #333333;
       text-decoration: none; }
 
-@media (max-width: 768px) {
+@media (max-width: 979px) {
   h1 br, h2 br, h3 br, h4 br, h5 br, h6 br, p br {
-    display: none; }
-
+    display: none; } }
+@media (max-width: 768px) {
   .row {
     margin: 0; }
 
   .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
     float: none;
-    width: 100%; }
-
-  h1, h2, h3, h4, p {
-    word-wrap: break-word; } }
-@media (max-width: 480px) {
-  p {
-    word-wrap: break-word; } }
+    width: 100%; } }
 a:hover,
 a:focus,
 a,
