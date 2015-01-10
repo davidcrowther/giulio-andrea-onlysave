@@ -7,37 +7,33 @@
   src: url("../fonts/opensans-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-italic-webfont.woff") format("woff"), url("../fonts/opensans-italic-webfont.ttf") format("truetype"), url("../fonts/opensans-italic-webfont.svg#$font-file") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: "OSR";
   src: url("../fonts/opensans-regular-webfont.eot");
   src: url("../fonts/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-regular-webfont.woff") format("woff"), url("../fonts/opensans-regular-webfont.ttf") format("truetype"), url("../fonts/opensans-regular-webfont.svg#$font-file") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: "OSB";
   src: url("../fonts/opensans-bold-webfont.eot");
   src: url("../fonts/opensans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-bold-webfont.woff") format("woff"), url("../fonts/opensans-bold-webfont.ttf") format("truetype"), url("../fonts/opensans-bold-webfont.svg#$font-file") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: "AMR";
   src: url("../fonts/asap-regular-webfont.eot");
   src: url("../fonts/asap-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/asap-regular-webfont.woff") format("woff"), url("../fonts/asap-regular-webfont.ttf") format("truetype"), url("../fonts/asap-regular-webfont.svg#$font-file") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: "AMB";
   src: url("../fonts/asap-bold-webfont.eot");
   src: url("../fonts/asap-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/asap-bold-webfont.woff") format("woff"), url("../fonts/asap-bold-webfont.ttf") format("truetype"), url("../fonts/asap-bold-webfont.svg#$font-file") format("svg");
   font-weight: normal;
   font-style: normal; }
-
-.icon, .icon-illustr-1, .icon-illustr-10, .icon-illustr-11, .icon-illustr-12, .icon-illustr-13, .icon-illustr-14, .icon-illustr-15, .icon-illustr-16, .icon-illustr-2, .icon-illustr-3, .icon-illustr-4, .icon-illustr-5, .icon-illustr-6, .icon-illustr-7, .icon-illustr-8, .icon-illustr-9, .icon-info {
-  background: url('../img/icon-sabf191661c.png') no-repeat; }
+.icon, .icon-illustr-1, .icon-illustr-10, .icon-illustr-11, .icon-illustr-12, .icon-illustr-13, .icon-illustr-14, .icon-illustr-15, .icon-illustr-16, .icon-illustr-2, .icon-illustr-21, .icon-illustr-3, .icon-illustr-4, .icon-illustr-5, .icon-illustr-6, .icon-illustr-7, .icon-illustr-8, .icon-illustr-9, .icon-info {
+  background-image: url('../img/icon-sfa4efbf9a6.png');
+  background-repeat: no-repeat; }
 
 .icon-illustr-1 {
   background-position: 0 0;
@@ -84,47 +80,52 @@
   height: 138px;
   width: 240px; }
 
-.icon-illustr-3 {
+.icon-illustr-21 {
   background-position: -2976px 0;
+  height: 138px;
+  width: 240px; }
+
+.icon-illustr-3 {
+  background-position: -3316px 0;
   height: 212px;
   width: 300px; }
 
 .icon-illustr-4 {
-  background-position: -3376px 0;
+  background-position: -3716px 0;
   height: 229px;
   width: 300px; }
 
 .icon-illustr-5 {
-  background-position: -3776px 0;
+  background-position: -4116px 0;
   height: 139px;
   width: 120px; }
 
 .icon-illustr-6 {
-  background-position: -3996px 0;
+  background-position: -4336px 0;
   height: 242px;
   width: 284px; }
 
 .icon-illustr-7 {
-  background-position: -4380px 0;
+  background-position: -4720px 0;
   height: 138px;
   width: 240px; }
 
 .icon-illustr-8 {
-  background-position: -4720px 0;
+  background-position: -5060px 0;
   height: 189px;
   width: 212px; }
 
 .icon-illustr-9 {
-  background-position: -5032px 0;
+  background-position: -5372px 0;
   height: 177px;
   width: 240px; }
 
 .icon-info {
-  background-position: -5372px 0;
+  background-position: -5712px 0;
   height: 18px;
   width: 18px; }
 
-.icon, .icon-illustr-1, .icon-illustr-10, .icon-illustr-11, .icon-illustr-12, .icon-illustr-13, .icon-illustr-14, .icon-illustr-15, .icon-illustr-16, .icon-illustr-2, .icon-illustr-3, .icon-illustr-4, .icon-illustr-5, .icon-illustr-6, .icon-illustr-7, .icon-illustr-8, .icon-illustr-9, .icon-info {
+.icon, .icon-illustr-1, .icon-illustr-10, .icon-illustr-11, .icon-illustr-12, .icon-illustr-13, .icon-illustr-14, .icon-illustr-15, .icon-illustr-16, .icon-illustr-2, .icon-illustr-21, .icon-illustr-3, .icon-illustr-4, .icon-illustr-5, .icon-illustr-6, .icon-illustr-7, .icon-illustr-8, .icon-illustr-9, .icon-info {
   display: inline-block; }
 
 .mb36 {
@@ -153,6 +154,9 @@
 
 .mb40 {
   margin-bottom: 40px !important; }
+
+.mb80 {
+  margin-bottom: 80px !important; }
 
 .mb26 {
   margin-bottom: 26px !important; }
@@ -243,6 +247,9 @@ article.page-header {
     padding-bottom: 112px;
     padding-top: 36px;
     background: #84bc46; }
+    @media (max-width: 768px) {
+      article.page-header .white-part {
+        padding-bottom: 30px !important; } }
     body.v2 article.page-header .white-part {
       padding-top: 0px; }
     body.dept_management article.page-header .white-part {
@@ -262,7 +269,7 @@ article.page-header {
       article.page-header .white-part.pt0 h1 {
         margin-top: -15px !important; }
     article.page-header .white-part p, article.page-header .white-part ul, article.page-header .white-part li, article.page-header .white-part h1, article.page-header .white-part h2 {
-      color: white; }
+      color: #ffffff; }
     @media (max-width: 768px) {
       article.page-header .white-part {
         padding-top: 0; } }
@@ -275,21 +282,54 @@ article.page-header {
         margin-top: -15px; }
       @media (max-width: 768px) {
         article.page-header .white-part h1 {
-          font-size: 2.1em; } }
+          font-size: 2.4em;
+          margin-bottom: 15px !important; } }
+      body.dept_management article.page-header .white-part h1 {
+        margin-bottom: 80px; }
+        @media (max-width: 979px) {
+          body.dept_management article.page-header .white-part h1 {
+            margin-bottom: 40px; } }
+      body.remortage article.page-header .white-part h1 {
+        margin-bottom: 85px;
+        line-height: 150%; }
+      body.remortage.v2 article.page-header .white-part h1 {
+        margin-bottom: 70px; }
     article.page-header .white-part h2 {
       font-family: "AMR";
       font-size: 2.57em;
       line-height: 123%;
       margin-bottom: 40px; }
-      article.page-header .white-part h2.m0 {
-        margin-bottom: 15px; }
       @media (max-width: 768px) {
         article.page-header .white-part h2 {
-          font-size: 1.8em; } }
+          font-size: 1.8em;
+          margin-bottom: 40px !important; } }
+      article.page-header .white-part h2.m0 {
+        margin-bottom: 15px; }
+      body.dept_management article.page-header .white-part h2 {
+        margin-bottom: 75px; }
+        @media (max-width: 979px) {
+          body.dept_management article.page-header .white-part h2 {
+            margin-bottom: 50px; } }
+      body.remortage article.page-header .white-part h2 {
+        margin-bottom: 90px;
+        line-height: 180%; }
+      body.remortage.v2 article.page-header .white-part h2 {
+        margin-bottom: 70px; }
     article.page-header .white-part hr {
       margin-bottom: 42px;
       margin-top: 0;
-      border-top: 2px solid white; }
+      border-top: 2px solid #ffffff; }
+      body.dept_management article.page-header .white-part hr {
+        margin-bottom: 75px; }
+        @media (max-width: 979px) {
+          body.dept_management article.page-header .white-part hr {
+            margin-bottom: 50px; } }
+      body.remortage article.page-header .white-part hr {
+        margin-bottom: 90px; }
+      @media (max-width: 768px) {
+        article.page-header .white-part hr {
+          margin-bottom: 42px !important;
+          margin-top: 0 !important; } }
     article.page-header .white-part .fa-ul {
       font-family: "OSB";
       margin-top: 17px; }
@@ -299,8 +339,28 @@ article.page-header {
         left: -49px; }
     article.page-header .white-part p {
       margin-bottom: 20px; }
+      body.dept_management article.page-header .white-part p {
+        margin-bottom: 55px;
+        line-height: 200%; }
+        @media (max-width: 979px) {
+          body.dept_management article.page-header .white-part p {
+            line-height: 180%;
+            margin-bottom: 40px; } }
+      body.life_insurance article.page-header .white-part p {
+        line-height: 180%;
+        margin-bottom: 40px; }
+      body.remortage.v2 article.page-header .white-part p {
+        line-height: 220%;
+        margin-bottom: 40px; }
+      body.remortage article.page-header .white-part p {
+        line-height: 230%;
+        margin-bottom: 40px; }
+      @media (max-width: 768px) {
+        article.page-header .white-part p {
+          line-height: 167% !important;
+          margin-bottom: 20px !important; } }
   article.page-header .white-bg-area {
-    background: white;
+    background: #fff;
     padding-top: 42px;
     padding-bottom: 20px;
     position: relative;
@@ -309,33 +369,37 @@ article.page-header {
       margin-top: -353px; }
       @media (max-width: 979px) {
         body.private_insurance article.page-header .white-bg-area {
-          margin-top: -233px; } }
+          margin-top: -340px; } }
     body.private_insurance.v2 article.page-header .white-bg-area {
       margin-top: -233px; }
       @media (max-width: 979px) {
         body.private_insurance.v2 article.page-header .white-bg-area {
-          margin-top: -123px; } }
+          margin-top: -230px; } }
     body.life_insurance article.page-header .white-bg-area {
       margin-top: -470px; }
       @media (max-width: 979px) {
         body.life_insurance article.page-header .white-bg-area {
-          margin-top: -330px; } }
+          margin-top: -390px; } }
     body.life_insurance.v2 article.page-header .white-bg-area {
-      margin-top: -310px; }
+      margin-top: -370px; }
       @media (max-width: 979px) {
         body.life_insurance.v2 article.page-header .white-bg-area {
-          margin-top: -150px; } }
+          margin-top: -290px; } }
     body.dept_management article.page-header .white-bg-area {
       margin-top: -500px;
       padding-bottom: 134px; }
       @media (max-width: 979px) {
         body.dept_management article.page-header .white-bg-area {
           margin-top: -580px; } }
+      @media (max-width: 768px) {
+        body.dept_management article.page-header .white-bg-area {
+          padding-bottom: 40px; } }
     body.dept_management.v2 article.page-header .white-bg-area {
       margin-top: -500px; }
       @media (max-width: 979px) {
         body.dept_management.v2 article.page-header .white-bg-area {
-          margin-top: -510px; } }
+          margin-top: -410px;
+          padding-bottom: 30px; } }
     body.remortage article.page-header .white-bg-area {
       margin-top: -680px;
       padding-bottom: 60px; }
@@ -347,6 +411,10 @@ article.page-header {
       @media (max-width: 979px) {
         body.remortage.v2 article.page-header .white-bg-area {
           margin-top: -710px; } }
+      @media (max-width: 768px) {
+        body.remortage.v2 article.page-header .white-bg-area {
+          padding-bottom: 0;
+          padding-top: 0; } }
     @media (max-width: 768px) {
       article.page-header .white-bg-area {
         margin-top: 0 !important; } }
@@ -514,7 +582,7 @@ article.gray {
     padding-top: 19px; }
 
 article.summary {
-  background: white;
+  background: #ffffff;
   padding: 63px 0 43px 0;
   color: #666666; }
   body.v2 article.summary {
@@ -557,7 +625,7 @@ article.summary {
       line-height: 158%;
       font-size: 0.92em; }
     article.summary blockquote p.name {
-      color: #666666;
+      color: #666;
       margin: 24px 0px 23px 0px;
       font-size: 0.92em; }
       article.summary blockquote p.name strong {
@@ -568,7 +636,7 @@ footer {
   padding: 20px 0;
   border-top: 1px solid #e3e3e3;
   border-bottom: 1px solid #e3e3e3;
-  background: white; }
+  background: #FFF; }
   @media (max-width: 768px) {
     footer {
       margin: 0; } }
@@ -586,7 +654,7 @@ footer {
 
 article.disclaimer {
   padding: 11px 0 9px 0;
-  background: white; }
+  background: #FFF; }
   article.disclaimer .container {
     max-width: 970px; }
   article.disclaimer p {
