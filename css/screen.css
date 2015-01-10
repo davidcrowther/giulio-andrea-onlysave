@@ -293,7 +293,8 @@ article.page-header {
         margin-bottom: 85px;
         line-height: 150%; }
       body.remortage.v2 article.page-header .white-part h1 {
-        margin-bottom: 70px; }
+        margin-bottom: 70px;
+        line-height: 120%; }
     article.page-header .white-part h2 {
       font-family: "AMR";
       font-size: 2.57em;
@@ -314,7 +315,8 @@ article.page-header {
         margin-bottom: 90px;
         line-height: 180%; }
       body.remortage.v2 article.page-header .white-part h2 {
-        margin-bottom: 70px; }
+        margin-bottom: 70px;
+        line-height: 120%; }
     article.page-header .white-part hr {
       margin-bottom: 42px;
       margin-top: 0;
@@ -344,16 +346,20 @@ article.page-header {
         line-height: 200%; }
         @media (max-width: 979px) {
           body.dept_management article.page-header .white-part p {
-            line-height: 180%;
+            line-height: 190%;
             margin-bottom: 40px; } }
+      @media (max-width: 979px) {
+        body.dept_management.v2 article.page-header .white-part p {
+          line-height: 180%;
+          margin-bottom: 40px; } }
       body.life_insurance article.page-header .white-part p {
         line-height: 180%;
         margin-bottom: 40px; }
-      body.remortage.v2 article.page-header .white-part p {
-        line-height: 220%;
-        margin-bottom: 40px; }
       body.remortage article.page-header .white-part p {
         line-height: 230%;
+        margin-bottom: 40px; }
+      body.remortage.v2 article.page-header .white-part p {
+        line-height: 220%;
         margin-bottom: 40px; }
       @media (max-width: 768px) {
         article.page-header .white-part p {
@@ -381,10 +387,10 @@ article.page-header {
         body.life_insurance article.page-header .white-bg-area {
           margin-top: -390px; } }
     body.life_insurance.v2 article.page-header .white-bg-area {
-      margin-top: -370px; }
+      margin-top: -340px; }
       @media (max-width: 979px) {
         body.life_insurance.v2 article.page-header .white-bg-area {
-          margin-top: -290px; } }
+          margin-top: -241px; } }
     body.dept_management article.page-header .white-bg-area {
       margin-top: -500px;
       padding-bottom: 134px; }
@@ -398,7 +404,7 @@ article.page-header {
       margin-top: -500px; }
       @media (max-width: 979px) {
         body.dept_management.v2 article.page-header .white-bg-area {
-          margin-top: -410px;
+          margin-top: -340px;
           padding-bottom: 30px; } }
     body.remortage article.page-header .white-bg-area {
       margin-top: -680px;
